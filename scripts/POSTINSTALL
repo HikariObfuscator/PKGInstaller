@@ -1,0 +1,5 @@
+#!/bin/bash
+rm -rf ~/Hikari/
+git clone https://github.com/HikariObfuscator/Resources.git ~/Hikari
+rsync -ua /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/ /Library/Developer/Toolchains/Hikari.xctoolchain/
+rm /Library/Developer/Toolchains/Hikari.xctoolchain/ToolchainInfo.plist
